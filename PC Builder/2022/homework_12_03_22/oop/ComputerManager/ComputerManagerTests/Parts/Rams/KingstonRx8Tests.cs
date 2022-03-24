@@ -26,7 +26,7 @@ namespace ComputerManagerTests.Parts.Rams
             //Arrange
             string _expectedMessage = @$"
 ////////////////////////////////{Environment.NewLine}
-KINGSTON IS THE BEST COMPANY 
+KINGSTON IS THE BEST COMPANY
 {Environment.NewLine}Memory size: 12{Environment.NewLine}
 ////////////////////////////////";
             KingstonRx8 ram = new();

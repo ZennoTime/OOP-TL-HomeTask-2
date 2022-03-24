@@ -12,10 +12,10 @@ namespace ComputerManager.Parts.Rams
         public override string GetInfo()
         {
             return @$"
-    ////////////////////////////////{Environment.NewLine}
-    KINGSTON IS THE BEST COMPANY 
-    {Environment.NewLine}{base.GetInfo()}{Environment.NewLine}
-    ////////////////////////////////";
+////////////////////////////////{Environment.NewLine}
+KINGSTON IS THE BEST COMPANY
+{Environment.NewLine}Memory size: 12{Environment.NewLine}
+////////////////////////////////";
         }
     }
 }
